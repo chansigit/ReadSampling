@@ -1,0 +1,7 @@
+#!/bin/bash
+#$ -S /bin/bash
+#$ -q week.q
+#$ -cwd
+#$ -l h_vmem=5g
+./chouyang -i /data/home/schen/data/BGI_T2D_RawReads/DLF001.clean.1.fasta  -I /data/home/schen/data/BGI_T2D_RawReads/DLF001.clean.2.fasta   -d /data/home/schen/data/T2D_Sample/r0.20n5   -p r0.20_batch1_   -r 0.20   -n 5
+	

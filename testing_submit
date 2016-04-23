@@ -1,0 +1,7 @@
+#!/bin/bash
+#$ -S /bin/bash
+#$ -q week.q
+#$ -cwd
+#$ -l h_vmem=5g
+./a.out -I rawreads1.fasta -i rawreads2.fasta  -d . -p test_ -r 0.501 -n 3
+	
